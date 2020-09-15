@@ -1,0 +1,6 @@
+<?php
+$t = array();
+$t["hmac"] = &$t["admin_hash"];
+echo base64_encode(serialize($t));
+
+?>
